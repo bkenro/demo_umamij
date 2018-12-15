@@ -334,22 +334,22 @@ class InstallHelper implements ContainerInjectionInterface {
         'info' => 'Umami Recipes Banner',
         'type' => 'banner_block',
         'field_title' => [
-          'value' => 'Super easy vegetarian pasta bake',
+          'value' => '超カンタン野菜の焼きパスタ',
         ],
         'field_content_link' => [
           'uri' => 'internal:' . call_user_func(function () {
-            $nodes = $this->entityTypeManager->getStorage('node')->loadByProperties(['title' => 'Super easy vegetarian pasta bake']);
+            $nodes = $this->entityTypeManager->getStorage('node')->loadByProperties(['title' => '超カンタン野菜の焼きパスタ']);
             $node = reset($nodes);
             return $this->aliasManager->getAliasByPath('/node/' . $node->id());
           }),
-          'title' => 'Super easy vegetarian pasta bake',
+          'title' => '超カンタン野菜の焼きパスタ',
         ],
         'field_summary' => [
-          'value' => 'A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.',
+          'value' => '身体に良い焼きパスタは究極の栄養食品です。この焼きパスタは、おいしくて、準備も簡単、家族みんなが喜ぶ定番の一品。',
         ],
         'field_banner_image' => [
           'target_id' => $this->createFileEntity($module_path . '/default_content/images/veggie-pasta-bake-hero-umami.jpg'),
-          'alt' => 'Mouth watering vegetarian pasta bake with rich tomato sauce and cheese toppings',
+          'alt' => '豊富なトマトソースとチーズのトッピングが入った口当たりの良いベジタリアンパスタ',
         ],
       ],
       'umami_disclaimer' => [
@@ -357,7 +357,7 @@ class InstallHelper implements ContainerInjectionInterface {
         'info' => 'Umami disclaimer',
         'type' => 'disclaimer_block',
         'field_disclaimer' => [
-          'value' => '<strong>Umami Magazine & Umami Publications</strong> is a fictional magazine and publisher for illustrative purposes only.',
+          'value' => '<strong>Umami Magazine & Umami Publication</strong> は、このデモサイトのための架空の雑誌と出版社です。',
           'format' => 'basic_html',
         ],
         'field_copyright' => [
@@ -373,19 +373,19 @@ class InstallHelper implements ContainerInjectionInterface {
           'value' => 'Umami Food Magazine',
         ],
         'field_summary' => [
-          'value' => 'Skills and know-how. Magazine exclusive articles, recipes and plenty of reasons to get your copy today.',
+          'value' => 'スキルとノウハウ、特集記事、レシピなどなど、思わず手に取りたくなる内容が満載です。',
         ],
         'field_content_link' => [
           'uri' => 'internal:' . call_user_func(function () {
-            $nodes = $this->entityTypeManager->getStorage('node')->loadByProperties(['title' => 'About Umami']);
+            $nodes = $this->entityTypeManager->getStorage('node')->loadByProperties(['title' => 'Umami について']);
             $node = reset($nodes);
             return $this->aliasManager->getAliasByPath('/node/' . $node->id());
           }),
-          'title' => 'Find out more',
+          'title' => 'もっと詳しく',
         ],
         'field_promo_image' => [
           'target_id' => $this->createFileEntity($module_path . '/default_content/images/umami-bundle.png'),
-          'alt' => '3 issue bundle of the Umami food magazine',
+          'alt' => '「食」のマガジン Umami を3号セット',
         ],
       ],
     ];

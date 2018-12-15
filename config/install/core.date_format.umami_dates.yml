@@ -1,7 +1,7 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
 id: umami_dates
 label: 'Umami dates'
 locked: false
-pattern: 'jS F Y'
+pattern: Y年Fj日

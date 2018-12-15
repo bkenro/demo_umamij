@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: node.recipe.field_number_of_servings
 field_name: field_number_of_servings
 entity_type: node
 bundle: recipe
-label: 'Number of servings'
-description: ''
+label: 完成
+description: 完成した料理が何人分かを表す数
 required: true
 translatable: false
 default_value: {  }
@@ -18,5 +18,5 @@ settings:
   min: 0
   max: null
   prefix: ''
-  suffix: ''
+  suffix: 人分
 field_type: integer

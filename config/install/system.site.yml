@@ -1,6 +1,5 @@
-uuid: ''
-name: ''
-mail: ''
+name: 'Umami Food Magazine'
+mail: webmaster@white-root.com
 slogan: ''
 page:
   403: ''
@@ -8,5 +7,5 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
-default_langcode: en
+langcode: ja
+default_langcode: ja

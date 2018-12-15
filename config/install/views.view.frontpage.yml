@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -9,9 +9,9 @@ dependencies:
     - node
     - user
 id: frontpage
-label: Frontpage
+label: フロントページ
 module: node
-description: 'All content promoted to the front page.'
+description: フロントページに掲載されている全てのコンテンツ
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -59,18 +59,18 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Welcome to [site:name]'
+          title: '[site:name]へようこそ'
           plugin_id: title
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: 適用
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
       filters:
         promote:
           admin_label: ''
@@ -270,7 +270,7 @@ display:
           row_class: ''
           default_row_class: true
           uses_fields: false
-      title: Home
+      title: ホーム
       header:
         area:
           id: area
@@ -282,7 +282,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<h2 class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level.</h2>'
+            value: '<h2 class="text-align-center">目的、材料、技量に合わせて最適なレシピをお選びください。</h2>'
             format: full_html
           plugin_id: text
       footer: {  }
@@ -291,7 +291,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: マスター
     id: default
     position: 0
     cache_metadata:
@@ -304,7 +304,7 @@ display:
   feed_1:
     display_plugin: feed
     id: feed_1
-    display_title: Feed
+    display_title: フィード
     position: 2
     display_options:
       sitename_title: true
@@ -345,7 +345,7 @@ display:
       defaults:
         css_class: false
     display_plugin: page
-    display_title: Page
+    display_title: ページ
     id: page_1
     position: 1
     cache_metadata:

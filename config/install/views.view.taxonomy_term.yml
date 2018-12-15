@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -8,9 +8,9 @@ dependencies:
     - taxonomy
     - user
 id: taxonomy_term
-label: 'Taxonomy term'
+label: タクソノミーターム
 module: taxonomy
-description: 'Content belonging to a certain taxonomy term.'
+description: 特定のタクソノミータームに所属するコンテンツ。
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -18,7 +18,7 @@ core: '8'
 display:
   default:
     id: default
-    display_title: Master
+    display_title: マスター
     display_plugin: default
     position: 0
     display_options:
@@ -40,13 +40,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: 適用
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
       pager:
         type: mini
         options:
@@ -59,12 +59,12 @@ display:
             next: ››
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: ページ毎の件数
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- 全て -'
             offset: false
-            offset_label: Offset
+            offset_label: オフセット
       sorts:
         sticky:
           id: sticky
@@ -103,7 +103,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: すべて
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
@@ -255,7 +255,7 @@ display:
       tags: {  }
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: フィード
     display_plugin: feed
     position: 2
     display_options:
@@ -294,7 +294,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: ページ
     display_plugin: page
     position: 1
     display_options:

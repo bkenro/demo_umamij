@@ -1,8 +1,8 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
-name: 'Recipe category'
+name: レシピ分類
 vid: recipe_category
-description: 'Use this taxonomy to group recipes of the same type together.'
+description: このタクソノミーを使用して同じ種類のレシピをグループ化します。
 hierarchy: 0
 weight: 0

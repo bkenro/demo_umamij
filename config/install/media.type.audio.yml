@@ -1,9 +1,9 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
 id: audio
-label: Audio
-description: 'A locally hosted audio file.'
+label: オーディオ
+description: サーバー内に保存されたオーディオファイル
 source: audio_file
 queue_thumbnail_downloads: false
 new_revision: true

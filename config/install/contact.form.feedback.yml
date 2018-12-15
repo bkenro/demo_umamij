@@ -1,11 +1,11 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
 id: feedback
-label: 'Website feedback'
+label: 当サイトへのご意見
 recipients:
-  - admin@example.com
+  - webmaster@white-root.com
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message: メッセージは送信されました
 redirect: ''

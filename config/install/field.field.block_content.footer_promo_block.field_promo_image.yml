@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -27,7 +27,6 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null

@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -6,7 +6,7 @@ dependencies:
     - image.style.max_325x325
     - image.style.max_650x650
 id: narrow
-label: Narrow
+label: 幅狭
 image_style_mappings:
   -
     breakpoint_id: responsive_image.viewport_sizing

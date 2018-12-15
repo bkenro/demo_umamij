@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -48,3 +48,4 @@ content:
     third_party_settings: {  }
 hidden:
   content_moderation_control: true
+  langcode: true

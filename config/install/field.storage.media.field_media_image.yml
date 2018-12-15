@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   enforced:
@@ -14,7 +14,6 @@ entity_type: media
 type: image
 settings:
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null

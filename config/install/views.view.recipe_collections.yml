@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: マスター
     position: 0
     display_options:
       access:
@@ -39,13 +39,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: 適用
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
       pager:
         type: some
         options:
@@ -138,7 +138,7 @@ display:
           entity_type: taxonomy_term
           entity_field: name
           plugin_id: standard
-      title: 'Recipe collections'
+      title: レシピ集
       header: {  }
       footer: {  }
       empty: {  }
@@ -155,7 +155,7 @@ display:
   block:
     display_plugin: block
     id: block
-    display_title: Block
+    display_title: ブロック
     position: 1
     display_options:
       display_extenders: {  }

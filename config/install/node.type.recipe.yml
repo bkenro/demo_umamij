@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   module:
@@ -7,9 +7,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Recipe
+name: レシピ
 type: recipe
-description: 'Add a new recipe to the site.'
+description: 新しいレシピを追加します。
 help: ''
 new_revision: true
 preview_mode: 1

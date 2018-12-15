@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -8,8 +8,8 @@ id: node.recipe.field_ingredients
 field_name: field_ingredients
 entity_type: node
 bundle: recipe
-label: Ingredients
-description: 'List the ingredients required for this recipe, one per item.'
+label: 材料
+description: このレシピに必要な材料を項目ごとに列挙します。
 required: false
 translatable: false
 default_value: {  }

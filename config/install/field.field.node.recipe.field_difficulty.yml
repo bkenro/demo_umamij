@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.recipe.field_difficulty
 field_name: field_difficulty
 entity_type: node
 bundle: recipe
-label: Difficulty
+label: レベル
 description: ''
 required: true
 translatable: false

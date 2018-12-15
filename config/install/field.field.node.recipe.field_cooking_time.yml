@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -8,7 +8,7 @@ id: node.recipe.field_cooking_time
 field_name: field_cooking_time
 entity_type: node
 bundle: recipe
-label: 'Cooking time'
+label: 調理
 description: ''
 required: false
 translatable: false
@@ -18,5 +18,5 @@ settings:
   min: 0
   max: null
   prefix: ''
-  suffix: ' minutes'
+  suffix: 分
 field_type: integer

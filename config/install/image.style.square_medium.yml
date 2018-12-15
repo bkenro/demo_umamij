@@ -1,11 +1,11 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
 name: square_medium
 label: 'Square Medium'
 effects:
   c42becc5-dd14-4384-81e1-8a667c60a705:
-    uuid: c42becc5-dd14-4384-81e1-8a667c60a705
+    uuid: ''
     id: image_scale_and_crop
     weight: 1
     data:

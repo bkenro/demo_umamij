@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -10,14 +10,14 @@ dependencies:
 id: umami_footer
 theme: umami
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Tell us what you think'
+  label: ご意見お寄せください
   provider: system
-  label_display: '1'
+  label_display: visible
   level: 1
   depth: 0
 visibility: {  }

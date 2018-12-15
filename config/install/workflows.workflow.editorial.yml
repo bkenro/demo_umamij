@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -8,28 +8,28 @@ dependencies:
   module:
     - content_moderation
 id: editorial
-label: Editorial
+label: コンテンツ編集
 type: content_moderation
 type_settings:
   states:
     archived:
-      label: Archived
+      label: アーカイブ
       weight: 5
       published: false
       default_revision: true
     draft:
-      label: Draft
+      label: 下書き
       published: false
       default_revision: false
       weight: -5
     published:
-      label: Published
+      label: 掲載
       published: true
       default_revision: true
       weight: 0
   transitions:
     archive:
-      label: Archive
+      label: アーカイブ
       from:
         - published
       to: archived
@@ -41,20 +41,20 @@ type_settings:
       to: draft
       weight: 3
     archived_published:
-      label: Restore
+      label: 復元
       from:
         - archived
       to: published
       weight: 4
     create_new_draft:
-      label: 'Create New Draft'
+      label: 新しい下書きを作成
       to: draft
       weight: 0
       from:
         - draft
         - published
     publish:
-      label: Publish
+      label: 掲載
       to: published
       weight: 1
       from:

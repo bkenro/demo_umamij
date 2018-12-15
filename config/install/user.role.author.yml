@@ -1,8 +1,8 @@
-langcode: en
+langcode: ja
 status: true
 dependencies: {  }
 id: author
-label: Author
+label: 投稿者
 weight: 3
 is_admin: null
 permissions:

@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -9,7 +9,7 @@ id: node.recipe.field_tags
 field_name: field_tags
 entity_type: node
 bundle: recipe
-label: Tags
+label: タグ
 description: 'Enter a comma-separated list. For example: Vegetarian, Chocolate brownies, Appetizers'
 required: false
 translatable: true

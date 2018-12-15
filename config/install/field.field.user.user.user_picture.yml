@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: Picture
+label: 写真
 description: 'Your virtual face or picture.'
 required: false
 translatable: true
@@ -25,7 +25,6 @@ settings:
   max_resolution: ''
   min_resolution: ''
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null

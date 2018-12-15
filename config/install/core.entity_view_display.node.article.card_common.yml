@@ -1,4 +1,4 @@
-langcode: en
+langcode: ja
 status: true
 dependencies:
   config:
@@ -29,4 +29,5 @@ hidden:
   body: true
   content_moderation_control: true
   field_tags: true
+  langcode: true
   links: true

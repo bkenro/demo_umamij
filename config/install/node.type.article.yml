@@ -1,9 +1,16 @@
-langcode: en
+langcode: ja
 status: true
-dependencies: {  }
-name: Article
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 記事
 type: article
-description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+description: '<em>記事</em>は、ニュース、プレスリリース、ブログ投稿など、投稿日時の情報が重要なコンテンツに使用します。'
 help: ''
 new_revision: true
 preview_mode: 1

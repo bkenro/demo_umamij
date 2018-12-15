@@ -4,7 +4,7 @@ dependencies: {  }
 id: feedback
 label: 当サイトへのご意見
 recipients:
-  - webmaster@white-root.com
+  - admin@example.com
 reply: ''
 weight: 0
 message: メッセージは送信されました

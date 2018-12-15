@@ -42,9 +42,13 @@ install:
   - responsive_image
   - content_moderation
   - workflows
+  - locale
 themes:
   - seven
   - umami
+
+'interface translation project': demo_umamij
+'interface translation server pattern': profiles/demo_umamij/translations/%language.po
 
 # Information added by Drupal.org packaging script on 2018-12-05
 version: '8.6.4'
